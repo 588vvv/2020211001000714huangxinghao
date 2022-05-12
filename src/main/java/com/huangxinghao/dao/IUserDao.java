@@ -1,6 +1,6 @@
 package com.huangxinghao.dao;
 
-import com.qiuhongtao.model.User;
+import com.huangxinghao.model.User;
 
 import java.sql.Connection;
 import java.sql.SQLException;
