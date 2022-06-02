@@ -82,7 +82,7 @@ public class Category {
         }
         return list;
     }
-    public static String findByCategoryId(Connection con, int categoryId){
+    public static String findByCategoryId(Connection con, int categoryId)throws SQLException{
         String sql="select * from Category where CategoryId=?";
         try{
             PreparedStatement statement = con.prepareStatement(sql);
